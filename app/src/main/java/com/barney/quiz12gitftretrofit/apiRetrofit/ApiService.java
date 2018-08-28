@@ -1,10 +1,12 @@
 package com.barney.quiz12gitftretrofit.apiRetrofit;
 
-import com.barney.quizgit.model.ResponseReadData;
 import retrofit2.Call;
+import retrofit2.Response;
 import retrofit2.http.GET;
 
 public interface ApiService {
-    @GET("read_data.php")
-    Call<ResponseReadData> response_read_data();
+
+    @GET("jakarta.json?key=d1aa7cdf5e8c0d2d7f1f47811497a732")
+    Call<com.barney.quiz12gitftretrofit.model.Response> readJadwalSholat();
+
 }
