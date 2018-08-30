@@ -4,7 +4,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class InstanceRetrofit {
-    private static final String Weburl = "http://muslimsalat.com/";
+    private static final String Weburl = "http://muslimsalat.com/london/";
 
     private static Retrofit setInit() {
         return new  Retrofit.Builder()
